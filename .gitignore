@@ -1,0 +1,27 @@
+# Laravel local configuration and generated files
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/vendor/
+/backend/node_modules/
+/backend/public/build/
+/backend/public/storage
+/backend/storage/**
+!/backend/storage/**/.gitignore
+/backend/.phpunit.result.cache
+/backend/bootstrap/cache/*.php
+/backend/database/*.sqlite
+/backend/database/*.sqlite-*
+
+# Flutter generated files and local IDE configuration
+/mobile/.dart_tool/
+/mobile/build/
+/mobile/.flutter-plugins-dependencies
+/mobile/.idea/
+/mobile/android/local.properties
+/mobile/android/key.properties
+/mobile/android/app/*.jks
+/mobile/android/app/*.keystore
+
+# Local dummy account data
+/Akun-Dummy-Attendly.xlsx
